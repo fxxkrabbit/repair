@@ -1,0 +1,9 @@
+<!-- Google Search Console验证 -->
+<meta name="google-site-verification" content="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" />
+
+<!-- 使用说明:
+1. 在Google Search Console创建新属性(可选择URL前缀或域名验证)
+2. 选择"HTML标记"验证方法
+3. 用提供的验证码替换上面的XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+4. 将此代码添加到所有页面的<head>部分
+--> 

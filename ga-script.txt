@@ -1,0 +1,16 @@
+<!-- Google Analytics (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+<!-- End Google Analytics -->
+
+<!-- 使用说明:
+1. 用您的GA4测量ID替换上面的G-XXXXXXXXXX
+2. 将此代码添加到所有页面的</head>标签前
+3. 确保在主域名和所有子页面都添加此代码
+--> 
