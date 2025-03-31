@@ -1,0 +1,52 @@
+/**
+ * 网站图标样式
+ * 用于自动生成的SVG图标
+ */
+
+/* 确保所有图标都是圆形的 */
+.xe-user-img img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* 卡片悬停时图标放大效果 */
+.xe-widget:hover .xe-user-img img {
+  transform: scale(1.05);
+}
+
+/* 为使用SVG作为背景的图标添加样式 */
+.xe-user-img .svg-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+
+/* 调整图标在卡片中的位置 */
+.xe-comment-entry {
+  display: flex;
+  align-items: center;
+}
+
+/* 确保图标在移动设备上也正确显示 */
+@media (max-width: 768px) {
+  .xe-user-img img {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .xe-user-img .svg-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+  }
+} 

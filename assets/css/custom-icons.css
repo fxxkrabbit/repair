@@ -1,0 +1,112 @@
+/* 自定义图标样式 - 苹果风格扁平化图标 */
+.icon-tools {
+  background-image: url('../images/icons/tools-icon.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.icon-car {
+  background-image: url('../images/icons/car-icon.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.icon-electronics {
+  background-image: url('../images/icons/electronics-icon.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.icon-home {
+  background-image: url('../images/icons/home-icon.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.icon-right-to-repair {
+  background-image: url('../images/icons/right-to-repair-icon.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.icon-community {
+  background-image: url('../images/icons/community-icon.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.icon-manual {
+  background-image: url('../images/icons/manual-icon.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.icon-garden {
+  background-image: url('../images/icons/garden-icon.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.icon-language {
+  background-image: url('../images/icons/language-icon.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+/* 为侧边栏菜单项添加图标 */
+.main-menu > li > a {
+  position: relative;
+  padding-left: 45px !important;
+}
+
+.main-menu > li > a i.custom-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+} 
